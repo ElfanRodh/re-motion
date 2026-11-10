@@ -1,0 +1,43 @@
+{
+    "name": "animated-video-generator",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+    "description": "JSON-driven Animated Video Generator using Remotion, React, Tailwind CSS, and TypeScript",
+    "scripts": {
+        "dev": "vite",
+        "build:css": "tailwindcss -i ./src/styles/globals.css -o ./src/styles/tailwind-compiled.css",
+        "build": "npm run build:css && vite build",
+        "preview": "npm run build:css && remotion preview src/index.ts",
+        "studio": "npm run build:css && remotion preview src/index.ts",
+        "render": "npm run build:css && remotion render src/index.ts MainVideoLandscape out/video.mp4",
+        "render:shorts": "npm run build:css && remotion render src/index.ts MainVideoShorts out/shorts.mp4",
+        "render:bojonegoro": "npm run build:css && remotion render src/index.ts ReelsPadiBojonegoro out/bojonegoro-reels.mp4",
+        "render:flatvector": "npm run build:css && remotion render src/index.ts FlatVectorBojonegoro out/bojonegoro-flatvector.mp4",
+        "render:dynamic": "npm run build:css && remotion render src/index.ts BojonegoroJuaraPadi out/bojonegoro-juara-padi.mp4"
+    },
+    "dependencies": {
+        "@remotion/cli": "^4.0.260",
+        "@remotion/player": "^4.0.260",
+        "@remotion/transitions": "^4.0.260",
+        "clsx": "^2.1.1",
+        "lucide-react": "^1.16.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "remotion": "^4.0.260",
+        "tailwind-merge": "^2.6.0",
+        "zod": "^3.24.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.9",
+        "@types/react": "^18.3.18",
+        "@types/react-dom": "^18.3.5",
+        "@vitejs/plugin-react": "^4.3.4",
+        "autoprefixer": "^10.4.20",
+        "pdf-parse": "^2.4.5",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.7.3",
+        "vite": "^6.2.0"
+    }
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Bojonegoro Juara 1 Padi Jawa Timur 2026",
+  "art_style": "Flat Vector",
+  "style_reference": "animation-studio/references/styles/flatvector.md",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 60,
+    "total_frames": 1800,
+    "aspect_ratio": "9:16"
+  },
+  "color_palette": {
+    "background_deep": "#0C1B33",
+    "background_marine": "#0F284E",
+    "background_light": "#1E3A8A",
+    "accent_primary": "#F59E0B",
+    "accent_highlight": "#FDE047",
+    "accent_secondary": "#0284C7",
+    "accent_tertiary": "#38BDF8",
+    "leaf_green": "#059669",
+    "leaf_light": "#34D399",
+    "editorial_card": "#152E52",
+    "editorial_card_shadow": "#0A172A",
+    "text_primary": "#FFFFFF",
+    "text_muted": "#94A3B8"
+  },
+  "audio": {
+    "voiceover": "public/vo_audio.mp3",
+    "background_music": "public/bgm-bojonegoro.mp3"
+  },
+  "scenes": [
+    {
+      "id": "fv-scene-1",
+      "start_sec": 0,
+      "end_sec": 8,
+      "start_frame": 0,
+      "end_frame": 240,
+      "narration": "Bumi Angling Darma mencetak sejarah! Rilis data BPS per 2 November 2026 mencatat: Kabupaten Bojonegoro jadi penghasil padi nomor satu di Jawa Timur!",
+      "visual_concept": "Establishing landscape: Editorial flat-vector sunrise over geometric terraced rice fields with layered hills, dramatic sun disk rising, and bold typography announcement with golden laurel leaf monument.",
+      "camera": "Subtle slow crane down and forward push",
+      "motion": "Masked geometric reveals of hills, sunray rotation, staggered number countup"
+    },
+    {
+      "id": "fv-scene-2",
+      "start_sec": 8,
+      "end_sec": 20,
+      "start_frame": 240,
+      "end_frame": 600,
+      "narration": "Secara nasional, Jawa Timur kembali kokoh sebagai produsen padi terbesar di Indonesia dengan total 10,61 juta ton Gabah Kering Giling.",
+      "visual_concept": "Geographic scale: Editorial vector map of Jawa Timur with clean polygon shade planes, glowing Bojonegoro centroid beacon, accompanied by flat isometric data towers comparing top 4 national provinces.",
+      "camera": "Smooth continental zoom into East Java province",
+      "motion": "Sequential province bar elevation, animated dashed trade lines, pulsing target rings"
+    },
+    {
+      "id": "fv-scene-3",
+      "start_sec": 20,
+      "end_sec": 33,
+      "start_frame": 600,
+      "end_frame": 990,
+      "narration": "Dan penopang terbesarnya, ada di Bojonegoro! Dengan luas panen 159 ribu hektar, Bojonegoro memimpin di puncak dengan torehan 868.808 ton gabah!",
+      "visual_concept": "Harvest supremacy: Flat vector combine harvester cutting golden paddy geometry, paired with editorial podium infographic showing top 3 regencies: Bojonegoro 868.808 Ton, Lamongan 852.192 Ton, Ngawi 768.307 Ton.",
+      "camera": "Tracking agricultural action to side-by-side leaderboard",
+      "motion": "Parallax movement of field rows, smooth horizontal bar expansion, badge float"
+    },
+    {
+      "id": "fv-scene-4",
+      "start_sec": 33,
+      "end_sec": 44,
+      "start_frame": 990,
+      "end_frame": 1320,
+      "narration": "Kalau dikonversi jadi beras siap konsumsi, Bojonegoro menyuplai lebih dari 501 ribu ton beras untuk kebutuhan pangan masyarakat.",
+      "visual_concept": "Modern agro-industrial processing: Cross-section editorial milling facility showing golden paddy converting into gleaming white rice grains via geometric conveyor vectors, leading to packed 501.670 Ton supply.",
+      "camera": "Horizontal conveyor pan with process stages",
+      "motion": "Continuous chevron flow, rice grain vector particles, dynamic fill ratio bar"
+    },
+    {
+      "id": "fv-scene-5",
+      "start_sec": 44,
+      "end_sec": 60,
+      "start_frame": 1320,
+      "end_frame": 1800,
+      "narration": "Bukti nyata kerja keras petani dan sinergi pemerintah menjaga kedaulatan pangan. Matur nuwun petani Bojonegoro! Wong Bojonegoro, bangga nggak nih? Tulis di komentar!",
+      "visual_concept": "Grand triumphant finale: Editorial heroic silhouette of agricultural prosperity with golden sun, large commemorative crest, summary quadrant data cards, and bold interactive call to action.",
+      "camera": "Wide triumphant pull back to complete composition framing",
+      "motion": "Harmonic paddy swaying, soft background ring breathing, interactive comment CTA"
+    }
+  ]
+}
+
